@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.top {
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 0;
+    
+}
+
+body img {
+    width: 100%;
+    background-image: cover;
+    display: block;
+    margin: fill;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    margin-top: 0px;
+    padding: 0;
+}
+div img {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 50px;
+    border: 15px solid black;
+    width: 250px;
+}
+
+.cirlces {
+    border-radius: 50%;
+}
