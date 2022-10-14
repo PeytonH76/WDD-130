@@ -3,7 +3,6 @@
 
 
 div {
-    max-width: 1600px;
     text-align: center;
     margin: 0 auto;
 }
@@ -13,6 +12,9 @@ div {
     padding-top: 10px;
 }
 
+.logo {
+    width: 80px;
+}
 #logo_link {
     padding-top: 5px;
 }
@@ -36,10 +38,6 @@ main section {
 }
 main section img {
     box-sizing: border-box;
-}
-
-#background {
-    height: 725px;
 }
 
 body {
@@ -120,8 +118,13 @@ h4 {
     color: white;
 }
 
+#content {
+    max-width: 1600px;
+}
+
 #background {
     background-color: black;
+    height: 725px;
 }
 
 .msg {
