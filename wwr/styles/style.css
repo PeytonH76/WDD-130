@@ -253,20 +253,20 @@ footer .social img {
     border: 10px solid red;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    width: 110%;
+    width: 100%;
     margin-top: 40px;
 }
 .river-card1{
     margin: 0px 50px 0px 20px;
     grid-column: 7/11;
     grid-row: 1/5;
-    margin-right: 55px;
+    margin-right: 95px;
 }
 .river-card2{
     margin: 0px 50px 0px 20px;
     grid-column: 7/11;
     grid-row: 3/6;
-    margin-right: 55px;
+    margin-right: 95px;
 }
 .info{
     color: white;
