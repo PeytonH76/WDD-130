@@ -21,7 +21,9 @@
 .top-right {
   position: absolute;
   top: 8px;
-  right: 560px;
+  right: 41%;
+  width: 11%;
+  font-size: 65%;
 }
 
 nav {
