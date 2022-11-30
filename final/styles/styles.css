@@ -6,10 +6,22 @@
   background-color: #474954 ;
 }
 
-#logo_link #center {
+#logo_link {
   padding-top: 5px;
   justify-self: center;
   align-self: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 560px;
 }
 
 nav {
@@ -59,6 +71,7 @@ body {
   font-size: x-large;
 }
 
+/*Home Page CSS*/
 .main_card1{
   justify-self: center;
   align-self: center;
@@ -97,12 +110,48 @@ body {
 .main_info h2{
   text-align: center;
   margin-top: 133px;
- 
 }
 
 .main_info p {
   margin-left: 150px;
   margin-right: 150px;
+}
+
+/*Positives and Negatives CSS*/
+
+.positives_info {
+  text-align: center;
+}
+
+.positives_info p {
+  margin-left: 90px;
+  margin-right: 120px;
+  text-align: left;
+}
+
+.positives_info h2, h3 {
+  font-size: 140%;
+  margin-left: -50px;
+  margin-right: 120px;
+  text-align: center;
+}
+
+.positives_card1 {
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 170px;
+  margin-top: -70px;
+}
+
+.positives_img_card1 {
+  border: 2px solid black;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+  float: right;
+  width: 35%;
 }
 
 footer {
