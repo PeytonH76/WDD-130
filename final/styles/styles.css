@@ -122,38 +122,99 @@ body {
 /*Positives and Negatives CSS*/
 
 .positives_info {
-  text-align: center;
+  text-align: left;
 }
 
 .positives_info p {
   margin-left: 90px;
-  margin-right: 120px;
-  text-align: left;
+  margin-right: 300px;
 }
 
-.positives_info h2, h3 {
-  font-size: 140%;
+.positives_info h2, .positives_info h3 {
+  font-size: 130%;
   margin-left: -50px;
   margin-right: 120px;
   text-align: center;
 }
 
+.positives_info h2 {
+  font-size: 170%;
+}
+
 .positives_card1 {
   justify-self: center;
   align-self: center;
-  margin-bottom: 170px;
-  margin-top: -70px;
 }
 
 .positives_img_card1 {
+  float: right;
+  float: inline-end;
+  margin-right: 90px;
+  width: 29%;
   border: 2px solid black;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
-  display: block;
-  margin-left: auto;
-  margin-right: 20px;
-  float: right;
-  width: 35%;
+}
+
+.negatives_info1 {
+  text-align: left;
+}
+
+.negatives_info1 p {
+  margin-left: 90px;
+  margin-right: 380px;
+  margin-top: -55px;
+
+}
+
+.negatives_info1 h2, .negatives_info1 h3 {
+  margin-left: -50px;
+  margin-right: 120px;
+  font-size: 130%;
+  text-align: center;
+  clear: right;
+}
+
+.negatives_info1 h2 {
+  font-size: 170%;
+}
+
+.negatives_info1 h3 {
+  margin-bottom: 70px;
+
+}
+
+.negatives_info2 {
+  text-align: left;
+  clear: left;
+}
+
+.negatives_info2 p {
+  margin-left: 90px;
+  margin-right: 380px;
+}
+
+.negatives_info2 h3 {
+  font-size: 130%;
+  margin-left: -50px;
+  margin-right: 120px;
+  text-align: center;
+
+}
+
+.positives_card2 {
+  justify-self: center;
+  align-self: center;
+}
+
+
+.positives_img_card2 {
+  float: left;
+  margin-left: 70px;
+  width: 21%;
+  border: 2px solid black;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer {
