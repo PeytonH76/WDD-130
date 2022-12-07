@@ -217,6 +217,56 @@ body {
   box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*Science CSS*/ 
+
+.how_info p {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -60px;
+}
+
+.how_info h2 {
+  font-size: 152%;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.science_card1 {
+  justify-self: center;
+  align-self: center;
+}
+
+.science_img_card1 {
+  float: right;
+  width: 25%;
+  margin-right: 120px;
+}
+
+.topics_info h2 {
+  text-align: center;
+  width: 120px;
+  margin-left: 43%;
+  margin-right: 59%;
+  margin-bottom: 60px;
+}
+
+.topics_info p {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -50px;
+}
+
+.science_card2 {
+  justify-self: center;
+  align-self: center; 
+}
+
+.science_img_card2 {
+  float: right;
+  width: 18%;
+  margin-right: 140px;
+}
+
 footer {
   background-color: #A9B3CE;;
   color: #7CDEDC;
